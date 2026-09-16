@@ -100,7 +100,7 @@ plt.title("Simple Linear Regression: Advertising vs Sales")
 
 plt.legend()
 plt.grid(True)
-plt.savefig("pgm2-fig1.png")
+plt.savefig("Figures/pgm2-LinearRegression.png")
 plt.show()
 
 #--------------------------------------------------
