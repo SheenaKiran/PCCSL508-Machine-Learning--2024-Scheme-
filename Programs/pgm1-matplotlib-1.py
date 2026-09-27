@@ -10,7 +10,8 @@
 #      different marker styles
 
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 # -------------------------------------------------------
 # Student data
@@ -141,7 +142,7 @@ axes[1, 1].legend()
 axes[1, 1].grid(True)
 
 # Overall title
-fig.suptitle("Student Marks Analysis", fontsize=16)
+fig.title("Student Marks Analysis", fontsize=16)
 
 # Adjust spacing
 #plt.tight_layout()
